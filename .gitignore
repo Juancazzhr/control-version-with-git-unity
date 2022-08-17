@@ -26,6 +26,9 @@ control-version-with-git-unity/[Aa]ssets/Plugins/Editor/JetBrains*
 # Visual Studio cache directory
 control-version-with-git-unity/.vs/
 
+# Rider
+control-version-with-git-unity/.idea/
+
 # Gradle cache directory
 control-version-with-git-unity/.gradle/
 
