@@ -1,21 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Juancazz.Root
 {
     public class Editor : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
+        private void Awake() => Debug.Log("Awake");
 
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
+        private void OnEnable() => Debug.Log("On Enable");
+
+        private void Start() => Debug.Log("Start");
     }
 }
